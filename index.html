@@ -62,6 +62,15 @@ footer a{color:var(--muted)}
 .phone{display:flex;justify-content:center}
 .phone img{display:block;width:100%;max-width:300px;height:auto;border-radius:34px;border:8px solid #050b13;box-shadow:0 0 0 1px var(--line),0 24px 60px rgba(0,0,0,.5)}
 @media(max-width:780px){.herogrid{grid-template-columns:1fr;gap:28px}}
+
+.btn.email{text-transform:none;letter-spacing:.02em;font-size:20px;max-width:100%;white-space:normal;overflow-wrap:anywhere;line-height:1.2}
+@media(max-width:560px){
+ .brand{font-size:17px;gap:8px;letter-spacing:.04em}.brand svg{width:26px;height:26px}
+ header.top .wrap{padding:0 14px}nav a{margin-left:10px;font-size:14px}
+ .btn.email{display:block;text-align:center;font-size:17px;padding:15px 12px}
+}
+@media(max-width:360px){.brand{font-size:15px}.btn.email{font-size:15px}}
+html,body{overflow-x:hidden}
 </style>
 </head>
 <body>
@@ -123,7 +132,7 @@ footer a{color:var(--muted)}
 <section id="contact"><div class="wrap">
   <h2>Let's fly</h2>
   <p class="sub">Questions about instruction, time building or Taxi Trainer? Send a note and I will get back to you.</p>
-  <p><a class="btn" href="mailto:ljohnson@cactustimebuilders.com">ljohnson@cactustimebuilders.com</a></p>
+  <p><a class="btn email" href="mailto:ljohnson@cactustimebuilders.com">ljohnson@cactustimebuilders.com</a></p>
 </div></section>
 </main>
 
